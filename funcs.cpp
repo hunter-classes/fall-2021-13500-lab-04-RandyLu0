@@ -117,7 +117,7 @@ std::string upper(int l){
 
 std::string trap(int w, int h){
     std::string a = "";
-    if(h * 2 > w){
+    if((h - 1) * 2 >= w){
         return "Impossible Shape!";
     }
     for(int r = 0; r < h; r++){
